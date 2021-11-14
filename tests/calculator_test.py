@@ -41,4 +41,4 @@ def test_calculator_divide_exception():
     """Testing divide by zero exception"""
     calc = Calculator()
     with pytest.raises(ZeroDivisionError):
-        result = calc.divide_numbers(4,0)
+        calc.divide_numbers(4,0)
