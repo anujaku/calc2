@@ -2,6 +2,7 @@
 from calc.calculations.addition import Addition
 from calc.calculations.subtraction import Subtraction
 from calc.calculations.multiplication import Multiplication
+from calc.calculations.division import Division
 
 class Calculator:
     """ This is the Calculator class"""
@@ -9,9 +10,9 @@ class Calculator:
     @staticmethod
     def add_numbers(*args):
         """ adds list of numbers"""
-        addition = Addition(args)
-        Calculator.history.append(addition)
-        return addition.get_result()
+        calculation = Addition(args)
+        Calculator.history.append(calculation)
+        return calculation.get_result()
     @staticmethod
     def clear_history():
         """ Clear the calculation history"""
@@ -28,11 +29,16 @@ class Calculator:
     @staticmethod
     def subtract_numbers(*args):
         """ subtract a list of numbers from result"""
-        subtraction = Subtraction(args)
-        Calculator.history.append(subtraction)
-        return subtraction.get_result()
+        calculation = Subtraction(args)
+        Calculator.history.append(calculation)
+        return calculation.get_result()
     @staticmethod
     def multiply_numbers(*args):
         """ multiplication number from result"""
-        multiplication = Multiplication(args)
-        return multiplication.get_result()
+        calculation = Multiplication(args)
+        return calculation.get_result()
+    @staticmethod
+    def divide_numbers(*args):
+        """ multiplication number from result"""
+        division = Division(args)
+        return division.get_result()
