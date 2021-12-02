@@ -5,7 +5,10 @@ class Division(Calculation):
     """Division calculation object"""
     def get_result(self):
         """get the division results"""
-        result = 1.0
-        for value in self.values:
-            result = result / value
-        return result
+        #initial_value = 1.0
+        for index, value in enumerate(self.values):
+            if index == 0:
+                division_value = value
+            else:
+                division_value = division_value / value
+        return round(division_value, 5)
