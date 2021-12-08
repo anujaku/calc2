@@ -2,9 +2,9 @@
 [![Build Status](https://app.travis-ci.com/anujaku/calc2.svg?branch=calcWithArgs)](https://app.travis-ci.com/anujaku/calc2)
 ![](homepage.png)
 
-![](validation1.png)
+![](validation11.png)
 
-![](validation2.png)
+![](validation12.png)
 
 ![](calculation_result.png)
 
