@@ -7,6 +7,8 @@ from app.controllers.early_innovations_controller import EarlyInnovationsControl
 from app.controllers.home_computers_controller import HomeComputersController
 from app.controllers.pylint_controller import PylintController
 from app.controllers.aaa_controller import AAAController
+from app.controllers.oops_controller import OOPSController
+from app.controllers.design_pattern_controller import DesignPatternController
 
 app = Flask(__name__)
 app.secret_key = b'_5#y2L"F4Q8z\n\xec]/'
@@ -49,4 +51,4 @@ def oopsconcepts_get():
 
 @app.route("/designpatterns", methods=['GET'])
 def designpatterns_get():
-    return PatternsController.get()
+    return DesignPatternController.get()

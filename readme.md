@@ -1,14 +1,15 @@
 # Calculator Project Setup
 [![Build Status](https://app.travis-ci.com/anujaku/calc2.svg?branch=calcWithArgs)](https://app.travis-ci.com/anujaku/calc2)
-![](homepage.png)
 
-![](validation11.png)
+![](homepage1.png)
 
-![](validation12.png)
+![](validation1.png)
 
-![](calculation_result.png)
+![](validation2.png)
 
-![](zeroDivisionError.png)
+![](resultpage.png)
+
+![](zerodivisionerror1.png)
 
 Run Pip Install
 pip install -r requirements.txt
