@@ -1,12 +1,15 @@
 # Calculator Project Setup
 [![Build Status](https://app.travis-ci.com/anujaku/calc2.svg?branch=calcWithArgs)](https://app.travis-ci.com/anujaku/calc2)
 
+Home page :
 ![](homepage1.png)
 
+Validations :
 ![](validation1.png)
 
 ![](validation2.png)
 
+Results Page : 
 ![](resultpage.png)
 
 ![](zerodivisionerror1.png)
